@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+.next-static/
+out/
+.vercel/
+.vercel_build_output/
+
+# Build outputs
+build/
+dist/
+.turbo/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Testing/coverage
+coverage/
+*.lcov
+
+# Editors/IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Images cache (Next.js)
+public/*.cache
