@@ -26,7 +26,7 @@ export default function Toolbar({ onReset }: ToolbarProps) {
   
   return (
     <>
-      <div className="mb-4 w-full">
+      <div className="mb-4 w-full max-w-4xl mx-auto">
         <div className="rounded-2xl p-[2px] bg-gradient-to-r from-lavender via-magenta to-violet shadow-md">
           <div className="flex flex-wrap gap-2 justify-center sm:justify-between items-center p-3 bg-white/90 backdrop-blur rounded-2xl">
             <button
@@ -58,7 +58,7 @@ export default function Toolbar({ onReset }: ToolbarProps) {
       
       {/* Instructions Panel */}
       {showInstructions && (
-        <div className="mb-4 p-[2px] rounded-xl bg-gradient-to-r from-lavender via-magenta to-violet animate-fade-in">
+        <div className="mb-4 p-[2px] rounded-xl bg-gradient-to-r from-lavender via-magenta to-violet animate-fade-in max-w-4xl mx-auto">
           <div className="p-4 bg-white/90 backdrop-blur rounded-xl">
           <h3 className="font-bold text-lg text-charcoal mb-2">How to Play Human Bingo! 🎮</h3>
           <ol className="list-decimal list-inside space-y-2 text-sm text-charcoal/80">

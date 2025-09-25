@@ -102,13 +102,6 @@ export default function BingoBoard() {
       </div>
       
       {/* Helper instructions (hidden on small to save space) */}
-      <div className="hidden sm:block mt-4 p-[2px] rounded-xl bg-gradient-to-r from-lavender via-magenta to-violet">
-        <div className="p-4 bg-white/90 backdrop-blur rounded-xl text-center text-sm text-charcoal">
-          <p className="font-semibold">How to play</p>
-          <p className="mt-1">Tap a square to add a person's name who matches that description.</p>
-          <p className="mt-1">Complete a row, column, or diagonal to win! 🎉</p>
-        </div>
-      </div>
-    </div>
+   </div>
   );
 }
