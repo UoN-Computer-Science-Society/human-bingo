@@ -32,7 +32,7 @@ export default function RootLayout({
         
         <footer className="bg-charcoal text-white py-4 px-4 mt-auto">
           <div className="container mx-auto text-center">
-            <p className="text-sm">© Shahjalal</p>
+            <p className="text-sm">© Shahjalal, Computer Science Society</p>
           </div>
         </footer>
         
