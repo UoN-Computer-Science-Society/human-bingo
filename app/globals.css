@@ -99,38 +99,3 @@ body {
 .hyphens-auto {
   hyphens: auto;
 }
-
-/* Shadcn-like minimal scroll area */
-.scroll-area {
-  overscroll-behavior: contain;
-  -webkit-overflow-scrolling: touch;
-  /* Hide by default on Firefox/IE */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
-}
-/* Hide by default on WebKit */
-.scroll-area::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-.scroll-area::-webkit-scrollbar-track {
-  background: transparent;
-}
-.scroll-area::-webkit-scrollbar-thumb {
-  background: transparent;
-}
-/* Reveal on hover/focus */
-.scroll-area:hover,
-.scroll-area:focus-visible {
-  scrollbar-width: thin; /* Firefox */
-}
-.scroll-area:hover::-webkit-scrollbar,
-.scroll-area:focus-visible::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-.scroll-area:hover::-webkit-scrollbar-thumb,
-.scroll-area:focus-visible::-webkit-scrollbar-thumb {
-  background: rgba(146, 134, 181, 0.6); /* violet */
-  border-radius: 9999px;
-}
